@@ -7,7 +7,7 @@
     <meta name="description" content="Description of the page less than 150 characters">
     <link rel="icon" type="image/png" href="P.Images/favicon.jpg">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:700&display=swap" rel="stylesheet">
-    <link rel='stylesheet' href='01-styles.css'>
+    <link rel='stylesheet' href='03-styles.css'>
   </head>
   <body>
     <!– Header –>
@@ -176,9 +176,16 @@
           </header>
           <div class="section-body">
             <div class="row">
-              <div class="col-1-2">
-                <img src="P.Images/pic-about-01.jpeg" alt="" width="460" height="460">
-              </div>
+        <div class="col-1-2">
+             <img 
+                sizes="(max-width: 3000px) 40vw, 1200px"
+               srcset="
+               about-us_icoxoo_c_scale,w_380.jpg 380w,
+               about-us_icoxoo_c_scale,w_853.jpg 853w,
+               about-us_icoxoo_c_scale,w_1200.jpg 1200w"
+            src="P.Images/pic-about-01.jpeg" alt="" width="460" height="460">
+
+        </div>
               <div class="col-1-2">
                 <h3>Who are we</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, omnis expedita! Eum, praesentium cumque accusantium rem, sit quaerat est nisi ratione, deserunt ducimus quidem iste dicta quibusdam atque maxime cum!</p>

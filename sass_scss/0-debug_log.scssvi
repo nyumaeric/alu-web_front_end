@@ -1,1 +1,3 @@
-@debug 'Hello world'
+// hello-world.scss
+
+@debug "Hello world";
